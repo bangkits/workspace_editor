@@ -93,4 +93,13 @@ Then head over to `src/components/3d/WorkspaceScene.tsx` and add a 3D model for 
 
 ## 📝 License
 
+## What I'll Improve With More Time
+
+- **Real 3D Models**: Right now I'm using basic boxes and cylinders. I'd love to load actual GLTF/GLB furniture models for a more realistic look
+- **Save to LocalStorage**: Drafts disappear on refresh right now — I want to persist them so you don't lose your work
+- **Room Customization**: Let you pick wall colors, floor textures, and room dimensions
+- **Export & Share**: Generate a shareable link or screenshot of your setup so you can show friends
+- **More Categories**: Add bookshelves, rugs, artwork, and maybe even pets
+- **Performance**: Right now it's fine with a few items, but I'd want to optimize if we add dozens of objects
+
 MIT — do whatever you want with it!
