@@ -1,7 +1,7 @@
 'use client';
 
 import { Canvas } from '@react-three/fiber';
-import { OrbitControls, Grid, Environment, AxesHelper } from '@react-three/drei';
+import { OrbitControls, Grid, Environment } from '@react-three/drei';
 import { Suspense } from 'react';
 import { WorkspaceItem } from '@/types/workspace';
 import WorkspaceScene from './WorkspaceScene';
@@ -39,8 +39,8 @@ export default function Workspace3DViewer({ placedItems }: Workspace3DViewerProp
             fadeStrength={5}
             cellSize={0.5}
             sectionSize={2}
-            sectionColor={[0.5, 0.5, 0.5]}
-            cellColor={[0.3, 0.3, 0.3]}
+            sectionColor="#808080"
+            cellColor="#4d4d4d"
           />
 
           {/* 3D Workspace Scene */}
